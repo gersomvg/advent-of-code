@@ -23,4 +23,4 @@ const partTwoTreeCounts = [
 ].map(slope => getTreeCountForSlope(lines, slope.right, slope.down));
 function multiply(a,b) { return a * b; }
 const partTwoAnswer = partTwoTreeCounts.reduce(multiply, 1);
-console.log(`Answer part two: ${partTwoAnswer} trees encountered`);
+console.log(`Answer part two: ${partTwoAnswer} (multiplication of trees encountered)`);
