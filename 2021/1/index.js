@@ -40,4 +40,4 @@ function getAnswer2() {
 
 console.log(`Answer part one: ${getAnswer1()}`);
 
-console.log(`Answer part one: ${getAnswer2()}`);
+console.log(`Answer part two: ${getAnswer2()}`);
